@@ -1,0 +1,43 @@
+# -------------------------------
+# WINDOWS + OFFICE CLEANUP RULES
+# -------------------------------
+# Prevent hidden Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.iniVault/Neuro/
+Docs/
+Archive/Forensic_Indices/
+MetaParent_Registration.yaml
+
+
+# Prevent Word and temp files
+~$*.docx
+~$*.doc
+*.tmp
+*.bak
+*.lock
+
+# Prevent VSCode / project metadata
+.vscode/
+.idea/
+*.code-workspace
+
+# Prevent GitHub Desktop log backups
+*.orig
+*.old
+*.log
+
+# Prevent Mac hidden files (if you ever copy from Mac)
+.DS_Store
+
+# -------------------------------
+# SAFE TRACEY LOGIC BASELINE
+# -------------------------------
+# Only keep real YAML, MD, PDF, and DOCX
+!*.yaml
+!*.yml
+!*.md
+!*.pdf
+!*.docx
+NeuroVault_Sync_Checklist.txt
+
